@@ -1,9 +1,15 @@
 package com.driver;
 
+import java.util.Scanner;
+
 public class Main {
     Product p=new Product();
-    int n=p.product(67,89);
-    int m=p.product(56,47,89);
-    double o=p.product(76.54,85.98);
+    Scanner s=new Scanner(System.in);
+    int x=s.nextInt(),y=s.nextInt(),z=s.nextInt();
+    int k=s.nextInt(), l=s.nextInt();
+    double t=s.nextDouble(), q=s.nextDouble();
+    int n=p.product(x,y);
+    int m=p.product(k,l,z);
+    double o=p.product(t,q);
 
 }
