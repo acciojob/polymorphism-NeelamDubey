@@ -5,4 +5,5 @@ public class Main {
     int n=p.product(67,89);
     int m=p.product(56,47,89);
     double o=p.product(76.54,85.98);
+
 }
